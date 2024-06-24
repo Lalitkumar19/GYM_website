@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .our-services {
+            max-width: 1000px;
+            border: solid aliceblue;
+            margin: auto;
+            padding: 40px 20px;
+            text-align: center;
+            background-color: aliceblue;
+            margin-top: 20px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            margin: 0 10px;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .service img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .service h2 {
+            font-size: 1.5rem;
+            color: #2aa749;
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        #catering {
+
+            height: 150px;
+
+        }
+
+
+        @media (max-width: 768px) {
+            .our-services {
+                padding: 20px;
+            }
+
+            .services-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service {
+                margin: 0 0 20px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="our-services">
+        <h1 class="os">Our Services</h1>
+        <div class="services-container">
+
+            <div class="service">
+                <img id="Personal Trainer" src="personal trainer2.jpeg" alt="Service 1">
+                <h2>Personal Trainers</h2>
+                <p>We provide best trainers to make your body fit and healthy.</p>
+            </div>
+
+
+            <div class="service">
+                <img id="zumba classes" src="zumba.jpeg" alt="Service 2">
+                <h2>zumba classes</h2>
+                <p>Do dance and get fit.</p>
+            </div>
+
+
+            <div class="service">
+                <img id="catering" src="spa.jpeg"
+                    alt="Service 3">
+                <h2>Spa</h2>
+                <p>Experience a spa and body massage.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
